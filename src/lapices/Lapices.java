@@ -9,6 +9,9 @@ public class Lapices {
         
         System.out.println("imprimir los datos del lapiz - color: "+lapiz_rojo.getColor()+ " ,tamaño: "+lapiz_rojo.getLargo());
         lapiz_rojo.pintar();
+        lapiz_rojo.rayar();
+        
+        lapiz_azul.pintar();
         lapiz_azul.rayar();
     }    
 }
